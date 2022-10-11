@@ -1,0 +1,101 @@
+body{
+    line-height:2;
+}
+/* fixed styles */
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 20px;
+}
+.main-headings{
+    font-weight: bolder;
+    font-size: 4.5em;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+.section-headings{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+section{
+    padding: 5% 12%;
+}
+
+/* navigation bar */
+#navbar{
+    padding: 0%;
+    margin-bottom: 5rem;
+}
+.navbar{
+    background-color: white;
+    box-shadow: 1px 0px 8px 6px #888888;
+}
+.navbar img{
+    width: 6rem;
+    border-radius: 100%;
+    box-shadow: 1px 0px 5px 2px #888888;
+}
+.nav-link{
+    font-weight: 700;
+}
+.dropdown-item{
+    padding: 8px;
+}
+
+/* welcome section */
+#welcome{
+    background-image: linear-gradient(#ffffff, #c8c0ff);
+}
+#welcome img{
+    width: 50%;
+    float: right;
+    box-shadow: 1px 0px 8px 6px #888888;
+    border-radius: 3%;
+}
+
+/* about-dmd */
+#about-dmd img{
+    width: 70%;
+    box-shadow: 1px 0px 6px 2px #888888;
+    padding: 3px;
+}
+/* about-us */
+#about-us{
+    color: white;
+    background-color: #6352f8;
+}
+/* achievement */
+.carousel-inner{
+    padding:5% 12%;
+}
+/* footer */
+#footer{
+    background-color: #120b1a;
+    text-align: center;
+}
+.footer-social{
+    font-size: x-large;
+    color: wheat;
+    padding: 6px;
+}
+.footer-social:hover{
+    color: pink;
+}
+#footer img{
+    width: 8rem;
+    border-radius: 100%;
+    box-shadow: 1px 0px 5px 2px #888888;
+}
+@media screen and (max-width:1000px) {
+    #welcome img{
+        width: 100%;
+    }
+    #about-dmd img{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .carousel-inner{
+        text-align: center;
+    }
+}
