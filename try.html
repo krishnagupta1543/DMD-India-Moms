@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DMD Moms India</title>
+
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./try.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/31310f7633.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid navigation-bar">
+                <a class="navbar-brand ms-5" href="index.html"><img src="./Assets/logo.jpeg" alt="" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-5">
+                            <!-- home nav item -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <!-- about us nav item -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#about-us">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="Care.html">Care</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Resources
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./Assets/pdf/DMD-Parental-Guidelines.pdf"
+                                            target="_blank">Guidelines for DMD parents <br> (courtesy IAP)</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="./Assets/pdf/PJ_Nicholoff_Steroid_Protocol.pdf"
+                                            target="_blank" target="_blank">Steroid protocol</a></li>
+                                    <!-- <li> 
+                                        <hr class="dropdown-divider">
+                                    </li> -->
+                                    <li><a class="dropdown-item"
+                                            href="./Assets/pdf/steroid-use-and-dmd-for-clinicians-final.pdf"
+                                            target="_blank">Steroid side effects <br> and management</a></li>
+                                    <li><a class="dropdown-item" href="./Assets/pdf/dmd-hindi.pdf" target="_blank">डी एम
+                                            डी की जानकारी (aiims)</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.facebook.com/100000829336534/videos/1078918816267266/"
+                                            target="_blank">Meeting with dr Anna</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.facebook.com/100000829336534/videos/1038707983644004/"
+                                            target="_blank">Education is must(aiims)</a></li>
+                                    <li><a class="dropdown-item" href="https://swavlambancard.gov.in/"
+                                            target="_blank">Disabilty Certificate</a></li>
+                                    <li><a class="dropdown-item" href="./Assets/pdf/IAMD.pdf" target="_blank">IAMD Manav
+                                            Mandir</a></li>
+                                    <li><a class="dropdown-item" href="#" target="_blank">Supportive Devices <br> And
+                                            Equipment</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Kids Corner
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#achievement">Achievements</a></li>
+                                    <li><a class="dropdown-item" href="#">Skills</a></li>
+                                    <li><a class="dropdown-item" href="#">Education</a></li>
+                                    <!-- mental health have sub nav add later -->
+                                    <li><a class="dropdown-item" href="#">Mental Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Moms Corner
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./ImprovingQualityOfLife.html">Improving Quality
+                                            Of Life</a></li>
+                                    <li><a class="dropdown-item" href="./InformingYourSon.html">Informing Your Son</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="./Acceptance.html">Acceptance</a></li>
+                                    <!-- mental health have sub nav add later -->
+                                    <li><a class="dropdown-item" href="./Depression.html">Depression</a></li>
+                                    <li><a class="dropdown-item" href="./Carrier.html">Carrier</a></li>
+                                    <li><a class="dropdown-item" href="./Comming.html">Sharing Experience</a></li>
+                                    <li><a class="dropdown-item" href="./Comming.html">Heath Tips</a></li>
+                                    <li><a class="dropdown-item" href="./HomeRemedies.html">Home Remedies</a></li>
+                                    <li><a class="dropdown-item" href="./TheUnplannedjourney.html">The Unplanned
+                                            journey</a></li>
+                                    <li><a class="dropdown-item" href="./HoldingHands.html">Holding Hands</a></li>
+                                    <li><a class="dropdown-item" href="./WheelChair.html">Wheel Chair</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"><button class="btn">Contact
+                                        Us</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <!-- welcome section -->
+    <section id="welcome">
+        <div class="welcome container-fluid">
+            <div class = "row">
+                <div class="col-lg-6">
+                    <h1 class="main-headings" style = "color: white;">Welcome To DMD India</span>Moms</h1>
+                </div>
+                <div class="col-lg-6">
+                    <img src="./Assets/img-4.jpg" alt="">
+                </div>
+            </div>
+            <div class="overlayer"></div>
+        </div>
+    </section>
+
+    <section id = "video">
+        <div class = "row">
+            <div class = "col">
+                <iframe width="100%" height="515" src="https://www.youtube.com/embed/JCCZUMcKgiY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- about-dmd section -->
+    <section id="about-dmd">
+        <h1 class="section-headings">
+            What Is DMD ?
+        </h1> <br>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./Assets/img-5.jpeg" alt="">
+            </div>
+            <div class="col-md-6">
+                <p>
+                    The most common muscular dystrophy in children is Duchenne muscular dystrophy. It's an illness that
+                    causes muscles to weaken over time, eventually affecting the entire body. It is not contagious to
+                    have Duchenne muscular dystrophy. Duchenne affects around one out of every 3,500 boys, and 20,000
+                    kids are born with it each year throughout the world. Duchenne affects predominantly boys and
+                    affects people of all colours and cultures. Even brothers with the same mutation may experience
+                    symptoms in quite different ways. The symptoms of Duchenne are progressive, ranging from mild to
+                    severe.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- About Us -->
+    <section id="about-us">
+        <h1 class="section-headings">
+            About Us
+        </h1> <br>
+        <p style = "z-index: 4;">We think from the perspective of a mother of specially-abled. We should come together and help
+            each other to bring up a child. There are many questions and confusions in the mother's mind
+            while bringing up a specially-abled child. We took the initiative to form this group for mothers
+            of DMD. We are here to help you and guide you through. Duchenne Muscular Dystrophy (DMD) is the
+            most common form of muscular dystrophy. It is a rare genetic condition that weakens a child's
+            muscle and spreads loss of muscle mass throughout the body.</p>
+        <h3>Our Objectives</h3>
+        <p>We all DMD moms are sailing in the same boat and have to face a lot of challenges while taking
+            care of our children. Being a DMD mom I often hold my son's hands at least for 10 to 15 minutes
+            daily sitting in front of him smiling, talking and sharing my feelings. Slowly it became a habit
+            and he started feeling cared, connected and relaxed. He shares almost everything with me and his
+            elder brother. Normally these children as they grow up start keeping their pains to themselves
+            but holding hands with a smile can do wonders. This effects their mental health of children as
+            well.</p>
+        <ul style="font-size: 20px;">
+            <li>To maintain a child's mental and physical health and lessen the side effects of DMD to
+                provide a better quality of life.</li>
+            <li>Have online monthly meetings with mothers. These meetings provide a platform for mothers to
+                share their experiences, clarify doubts and learn from each other.</li>
+            <li>Share about availability and usage of durable medical equipment.</li>
+            <li>To explore, encourage and appreciate talent in the children.</li>
+        </ul>
+    </section>
+    <!-- Achievements -->
+    <section id="achievement" style="padding: 5%;">
+        <div class="container achievement-main">
+            <div class="row">
+                <h1 class="section-headings" style="margin-bottom: 3rem;">Achievements</h1>
+                <div class="col-sm-12 achievement-main-carousel">
+                    <div id="carouselExampleControls" class=" carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="./Assets/Dr.Sarthak.jpeg" class="d-block achievement-img" alt= "Dr.Sarthak kamath image">
+                                    </div>
+                                    <div class="col-md-6 carousel-text">
+                                        <h2>Dr.Sarthak Kamath </h2>
+                                        <p>MBBS, MD(Psychiatry) <br>
+                                            Asst Professor in the Department of Psychiatry <br> at B R Ambedkar Medical
+                                            College, Bangalore. <br></p>
+                                        <a href="https://www.youtube.com/embed/wNHPklQbE8o"
+                                            style="color: #dc1d3d;">Living life on his terms from DMD to Psychiatry. |
+                                            Dr.Sarthak Kamath | TEDxMSRIT</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="./Assets/explore/karan.jpeg" class="d-block achievement-img" alt= "karan Vaidya image">
+                                    </div>
+                                    <div class="col-md-6 carousel-text">
+                                        <h2>Karan Vaidya</h2>
+                                        <p>System engineer in TCS<br> MSC digital Forensic And Information Security
+                                            in national Forensic university</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="./Assets/img-7.jpeg" class="d-block achievement-img" alt="Sarthak Gawri image">
+                                    </div>
+                                    <div class="col-md-6 carousel-text">
+                                        <h2>Sarthak Gawri </h2>
+                                        <p>12th standard from National Institute of Open Schooling (NIOS) <br>
+                                            Working as a freelancer as a web-developer</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="./Assets/Ravi Kiran.jpeg" class="d-block achievement-img" alt="ravi kiran image">
+                                    </div>
+                                    <div class="col-md-6 carousel-text">
+                                        <h2>Ravi Kiran jayanti </h2>
+                                        <p> Studied in kendriya vidyalaya Bhubaneswar
+                                            up to 12th standard. <br> B. TECH(computer science) KIITS University.
+                                            <br>Working in SAP Labs Pvt. Ltd as a developer.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="./Assets/Harsehaj singh (2).jpeg" class="d-block achievement-img"
+                                            alt="Harsehaj image">
+                                    </div>
+                                    <div class="col-md-6 carousel-text">
+                                        <h2>Harsehaj Singh</h2>
+                                        <p>10th standard from National Institute of Open Schooling (NIOS)<br>
+                                            now waiting for admission in some computer course and 12th.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="./Assets/Kartik_Kansal.jpeg" class="d-block   
+                                         achievement-img"
+                                            alt="Kartik_Kansal">
+                                    </div>
+                                    <div class="col-md-6 carousel-text">
+                                        <h2>Kartik Kansal</h2>
+                                        <p>
+                                            Secured AIR 271 in UPSC Exam.
+                                            Went to IIT ROORKEE, completed mechanical engineering in 2018,
+                                            Since then working as scientist in ISRO.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="./Assets/Aayush Deshmukh1.jpeg" class="d-block achievement-img"
+                                            alt="Kartik_Kansal">
+                                    </div>
+                                    <div class="col-md-6 carousel-text">
+                                        <h2>Aayush Deshmukh</h2>
+                                        <p> Studying B.Tech At IIT-Bhilai.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev carousel-btn" type="button"
+                            data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next carousel-btn" type="button"
+                            data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <footer>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="./Assets/logo.jpeg" alt=""> <br>
+                    <p style="color: white; font-size: medium;">The most common muscular dystrophy in children is
+                        Duchenne muscular dystrophy. It's an illness that causes muscles to weaken over time, eventually
+                        affecting the entire body. <br> <br>
+                        <b>
+                        For Free Legal Advice
+                        Contact:
+                        Advocate Sumit Gupta
+                        +91 90450 33181 (call between 5PM - 9PM)
+                        </b></p>
+                        <!-- <p></p> -->
+                </div>
+                <div class="col-sm-6">
+                    <a href="https://www.facebook.com/groups/dmdindia" class="footer-social"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="mailto:dmdindiamom@gmail.com?subject=Whatsapp group invite request" class="footer-social"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="mailto:dmdindiamom@gmail.com?" class="footer-social"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://twitter.com/dmdindiamom" class="footer-social"><i class="fa-brands fa-twitter"></i></a>
+                    <div>
+                        <p style="color: #FF0063;font-size: small;"> @copyrightdmdIndiamoms</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

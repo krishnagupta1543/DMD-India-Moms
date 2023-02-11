@@ -26,13 +26,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
-    CSS rules t
 </head>
 
 <body>
     <!-- navigation bar -->
     <section id="navbar">
-        <nav class="navbar fixed-top navbar-expand-lg ">
+        <nav class="navbar navbar-expand-lg ">
             <div class="container-fluid navigation-bar">
                 <a class="navbar-brand ms-5" href="index.html"><img src="./Assets/logo.jpeg" alt="" class="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
@@ -52,10 +51,10 @@
                             </li>
                             <!-- about us nav item -->
                             <li class="nav-item">
-                                <a class="nav-link active" href="#aboutus">About Us</a>
+                                <a class="nav-link active" href="#about-us">About Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#aboutus">Care</a>
+                                <a class="nav-link active" href="Care.html">Care</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle active" href="#" role="button"
@@ -127,8 +126,7 @@
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="#"><button class="btn"
-                                        style="background-color:  #6352f8;color: white;font-weight: 700;">Contact
+                                <a class="nav-link active" href="#"><button class="btn">Contact
                                         Us</button></a>
                             </li>
                         </ul>
@@ -137,18 +135,38 @@
             </div>
         </nav>
     </section>
-    <section id="welcome" style="padding: 11% 12%;">
+
+    <!-- welcome section -->
+    <section id="welcome">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="main-headings">Welcome To <span style="color: #dc1d3d;">DMD India</span> <br>Moms</h1>
+                <h1 class="main-headings" style = "color:white">Welcome To DMD India Moms</h1>
             </div>
             <div class="col-md-6">
-                <img src="./Assets/explore/imgdmd (1).jpg" alt="" class="image">
+                <img src="./Assets/img-4.jpg" alt="">
             </div>
         </div>
     </section>
+    
+    <!-- welcome video -->
+    <section id = "video">
+        <div style="padding:0% 12%">
+        <div style="background-color: rgba(208, 36, 32);">
+            <h1 class = "main-headings" style="text-align: center;color: white;">We All Are Together</h1>
+        </div>
+        <div class = "row">
+            <div class = "col">
+                <video src="./Assets/together.mp4" autoplay controls poster="./Assets/background/img-4.jpg" width="100%">
+                </video>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- about-dmd section -->
     <section id="about-dmd">
-        <h1 class="section-headings">
+        <h1 class="section-headings" style = "color:rgba(208, 36, 32);">
             What Is DMD ?
         </h1> <br>
         <div class="row">
@@ -168,12 +186,14 @@
             </div>
         </div>
     </section>
+
+
     <!-- About Us -->
     <section id="about-us">
         <h1 class="section-headings">
             About Us
         </h1> <br>
-        <p>We think from the perspective of a mother of specially-abled. We should come together and help
+        <p style = "z-index: 4;">We think from the perspective of a mother of specially-abled. We should come together and help
             each other to bring up a child. There are many questions and confusions in the mother's mind
             while bringing up a specially-abled child. We took the initiative to form this group for mothers
             of DMD. We are here to help you and guide you through. Duchenne Muscular Dystrophy (DMD) is the
@@ -196,6 +216,8 @@
             <li>To explore, encourage and appreciate talent in the children.</li>
         </ul>
     </section>
+
+
     <!-- Achievements -->
     <section id="achievement" style="padding: 5%;">
         <div class="container achievement-main">
@@ -207,8 +229,7 @@
                             <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img src="./Assets/Dr.Sarthak.jpeg" class="d-block achievement-img" alt="..."
-                                            style="border-radius: 100% ;width: 50%; margin: auto;">
+                                        <img src="./Assets/Dr.Sarthak.jpeg" class="d-block achievement-img" alt= "Dr.Sarthak kamath image">
                                     </div>
                                     <div class="col-md-6 carousel-text">
                                         <h2>Dr.Sarthak Kamath </h2>
@@ -224,8 +245,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img src="./Assets/explore/karan.jpeg" class="d-block achievement-img" alt="..."
-                                            style="border-radius: 100% ;width: 50%; margin: auto;">
+                                        <img src="./Assets/explore/karan.jpeg" class="d-block achievement-img" alt= "karan Vaidya image">
                                     </div>
                                     <div class="col-md-6 carousel-text">
                                         <h2>Karan Vaidya</h2>
@@ -237,8 +257,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img src="./Assets/img-7.jpeg" class="d-block achievement-img" alt="..."
-                                            style="border-radius: 100% ;width: 50%; margin: auto;">
+                                        <img src="./Assets/img-7.jpeg" class="d-block achievement-img" alt="Sarthak Gawri image">
                                     </div>
                                     <div class="col-md-6 carousel-text">
                                         <h2>Sarthak Gawri </h2>
@@ -250,8 +269,7 @@
                             <div class="carousel-item">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <img src="./Assets/Ravi Kiran.jpeg" class="d-block achievement-img" alt="..."
-                                            style="border-radius: 100% ;width: 50%; margin: auto;">
+                                        <img src="./Assets/Ravi Kiran.jpeg" class="d-block achievement-img" alt="ravi kiran image">
                                     </div>
                                     <div class="col-md-6 carousel-text">
                                         <h2>Ravi Kiran jayanti </h2>
@@ -266,12 +284,28 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <img src="./Assets/Harsehaj singh (2).jpeg" class="d-block achievement-img"
-                                            alt="..." style="border-radius: 100% ;width: 50%; margin: auto;">
+                                            alt="Harsehaj image">
                                     </div>
                                     <div class="col-md-6 carousel-text">
                                         <h2>Harsehaj Singh</h2>
                                         <p>10th standard from National Institute of Open Schooling (NIOS)<br>
                                             now waiting for admission in some computer course and 12th.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <img src="./Assets/Kartik_Kansal.jpeg" class="d-block   
+                                         achievement-img"
+                                            alt="Kartik_Kansal">
+                                    </div>
+                                    <div class="col-md-6 carousel-text">
+                                        <h2>Kartik Kansal</h2>
+                                        <p>
+                                            Secured AIR 271 in UPSC Exam.
+                                            Went to IIT ROORKEE, completed mechanical engineering in 2018,
+                                            Since then working as scientist in ISRO.</p>
                                     </div>
                                 </div>
                             </div>
@@ -298,24 +332,30 @@
                     <img src="./Assets/logo.jpeg" alt=""> <br>
                     <p style="color: white; font-size: medium;">The most common muscular dystrophy in children is
                         Duchenne muscular dystrophy. It's an illness that causes muscles to weaken over time, eventually
-                        affecting the entire body.</p>
+                        affecting the entire body. <br> <br>
+                        <b>
+                        For Free Legal Advice
+                        Contact:
+                        Advocate Sumit Gupta
+                        +91 90450 33181 (call between 5PM - 9PM)
+                        </b></p>
+                        <!-- <p></p> -->
                 </div>
                 <div class="col-sm-6">
-                    <a href="#" class="footer-social"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" class="footer-social"><i class="fa-brands fa-square-whatsapp"></i></a>
-                    <a href="#" class="footer-social"><i class="fa-solid fa-envelope"></i></a>
-                    <a href="#" class="footer-social"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/groups/dmdindia" class="footer-social"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="mailto:dmdindiamom@gmail.com?subject=Whatsapp group invite request" class="footer-social"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="mailto:dmdindiamom@gmail.com?" class="footer-social"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://twitter.com/dmdindiamom" class="footer-social"><i class="fa-brands fa-twitter"></i></a>
                     <div>
-                        <p style="color: #dc1d3d;font-size: small;"> @copyrightdmdIndiamoms</p>
+                        <p style="color: #FF0063;font-size: small;"> @copyrightdmdIndiamoms</p>
                     </div>
                 </div>
             </div>
         </footer>
     </section>
-    <marquee style="background-color:  #dc1d3d;font-weight: bold;color: white;">"Think Positive Be Positive Live
+    <!-- <marquee>"Think Positive Be Positive Live
         Positive To Provide Best Care To Your Kid". Let's walk the journey
-        together, You are not alone... Contact us:dmdindiamom@gmail.com</marquee>
-
+        together, You are not alone... Contact us:dmdindiamom@gmail.com</marquee> -->
 </body>
 
 </html>

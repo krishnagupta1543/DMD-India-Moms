@@ -1,6 +1,15 @@
 body{
     line-height:2;
 }
+.main-img{
+    width: 50%;
+    left: 23rem;
+    top: 2rem;
+    position: relative;
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* fixed styles */
 a{
     text-decoration: none;
@@ -18,18 +27,18 @@ p{
     font-weight: bold;
     text-align: center;
 }
+/* padding fixed for all sections */
 section{
     padding: 5% 12%;
 }
 
 /* navigation bar */
 #navbar{
+    /* font-family: 'Montserrat', sans-serif; */
     padding: 0%;
-    margin-bottom: 5rem;
 }
 .navbar{
-    background-color: white;
-    box-shadow: 1px 0px 8px 6px #888888;
+    background-color: rgba(208, 36, 32);
 }
 .navbar img{
     width: 6rem;
@@ -42,51 +51,80 @@ section{
 .dropdown-item{
     padding: 8px;
 }
+.nav-link .btn{
+    background-color: #5A4BDA;
+    color: white;
+    font-weight: 700;
+    padding:10px;
+    border-radius: 12px;
+}
+.navbar-nav .nav-link.active{
+    color:white
+}
 
 /* welcome section */
 #welcome{
-    background-image: linear-gradient(#ffffff, #c8c0ff);
+    height: 100vh;
+    background-color: rgba(208, 36, 32);
+    padding-bottom: 0%;
 }
 #welcome img{
-    width: 50%;
+    width: 100%;
     float: right;
-    box-shadow: 1px 0px 8px 6px #888888;
-    border-radius: 3%;
+    border-radius: 5px 90px 5px;
 }
 
 /* about-dmd */
+#about-dmd, #achievement{
+    background-color: #fbf8f3;
+}
 #about-dmd img{
     width: 70%;
     box-shadow: 1px 0px 6px 2px #888888;
-    padding: 3px;
+    border-radius: 72% 28% 81% 19% ;
 }
 /* about-us */
 #about-us{
-    color: white;
-    background-color: #6352f8;
+    color: rgb(0, 0, 0);
+    background-color: #EFEFEF;
 }
 /* achievement */
+
 .carousel-inner{
     padding:5% 12%;
 }
+/* fixed for achievement image */
+.achievement-img{
+    border-radius: 100% ;
+    width: 60%; 
+    margin:auto;
+}
+/* care section */
+#care{
+    height: 10vh;
+    background-color: #FF0063;
+}
 /* footer */
 #footer{
-    background-color: #120b1a;
+    background-color: #070707;
     text-align: center;
+        /* position: fixed;  */
+        bottom: 0;
+        left: 0;
+        right: 0;
 }
 .footer-social{
     font-size: x-large;
-    color: wheat;
+    color: rgb(255, 255, 255);
     padding: 6px;
-}
-.footer-social:hover{
-    color: pink;
 }
 #footer img{
     width: 8rem;
     border-radius: 100%;
     box-shadow: 1px 0px 5px 2px #888888;
 }
+
+/* for mobile */
 @media screen and (max-width:1000px) {
     #welcome img{
         width: 100%;
@@ -98,4 +136,12 @@ section{
     .carousel-inner{
         text-align: center;
     }
+    .main-img{
+        width: 100%;
+        left: 0rem;
+        top: 18rem;
+    }
+    .navbar-nav .nav-link.active{
+        color:black;
+    }    
 }
