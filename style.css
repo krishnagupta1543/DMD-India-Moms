@@ -88,8 +88,19 @@ section{
     color: rgb(0, 0, 0);
     background-color: #EFEFEF;
 }
-/* achievement */
 
+/* care */
+.card .card-body .card-title{
+    font-size:25px;
+}
+.card .card-body .card-text{
+    font-size: 20px;
+}
+.card .card-body .btn{
+    background-color: rgba(208, 36, 32);
+    color:white;
+}
+/* achievement */
 .carousel-inner{
     padding:5% 12%;
 }
@@ -99,19 +110,15 @@ section{
     width: 60%; 
     margin:auto;
 }
-/* care section */
-#care{
-    height: 10vh;
-    background-color: #FF0063;
-}
+
 /* footer */
 #footer{
     background-color: #070707;
     text-align: center;
         /* position: fixed;  */
-        bottom: 0;
+        /* bottom: 0;
         left: 0;
-        right: 0;
+        right: 0; */
 }
 .footer-social{
     font-size: x-large;
@@ -144,4 +151,91 @@ section{
     .navbar-nav .nav-link.active{
         color:black;
     }    
+    .main-headings{
+        font-weight: bolder;
+        font-size: 2.5em;
+        /* font-family: 'Montserrat', sans-serif; */
+    }
+    .section-headings{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    .main-video iframe{
+        width: 100%;
+    }
+    .unplanned-img{
+        display:none;
+    }
+    .carrier-img{
+        display: none;
+    }
+    .carrier-bg{
+        display: none;
+    }
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* physiotherapy page */
+#welcome-phy{
+    background-color: #faefdc;
+}
+#hydrotherapy{
+    background-color: #EFEFEF;
+}
+.main-hydro .main-headings{
+    color: rgba(208, 36, 32);
+}
+.main-video iframe{
+    width: 100%;
+    height: 20rem;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Education page */
+.main-cbse{
+    background-color: #faefdc;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: inherit;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------- */
+/* informing your son */
+#welcome-inform{
+    background-color: #faefdc;
+    /* background-image: linear-gradient(to left top, rgb(255, 152, 150),  #e49a8d); */
+}
+
+/* --------------------------------------------------------------------------------------------------------------- */
+/* depression */
+.depression-img{
+    background-image: url("./Assets/background/img-16.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+/* --------------------------------------------------------------------------------------------------- */
+.homeremedies-1{
+    width: 100%;
+}
+#homeremedies-content-1{
+    background-color: #fff4f4;
+}
+/* unplanned journey */
+.unplanned-img{
+    background-image: url("./Assets/background/img-24.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+/* ----------------------------------------------------------- */
+/* carrier */
+.carrier-bg{
+    background-image: url("./Assets/background/img-30.jpg");
+     background-size: cover;
+    height: 67vh
 }

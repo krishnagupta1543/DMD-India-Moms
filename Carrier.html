@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrier</title>
+
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+
+    <!-- css -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/31310f7633.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <section id="navbar">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid navigation-bar">
+                <a class="navbar-brand ms-5" href="index.html"><img src="./Assets/logo.jpeg" alt="" class="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-5">
+                            <!-- home nav item -->
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <!-- about us nav item -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#about-us">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#care">Care</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Resources
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./Assets/pdf/DMD-Parental-Guidelines.pdf"
+                                            target="_blank">Guidelines for DMD parents <br> (courtesy IAP)</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="./Assets/pdf/PJ_Nicholoff_Steroid_Protocol.pdf"
+                                            target="_blank" target="_blank">Steroid protocol</a></li>
+                                    <!-- <li> 
+                                        <hr class="dropdown-divider">
+                                    </li> -->
+                                    <li><a class="dropdown-item"
+                                            href="./Assets/pdf/steroid-use-and-dmd-for-clinicians-final.pdf"
+                                            target="_blank">Steroid side effects <br> and management</a></li>
+                                    <li><a class="dropdown-item" href="./Assets/pdf/dmd-hindi.pdf" target="_blank">डी एम
+                                            डी की जानकारी (aiims)</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.facebook.com/100000829336534/videos/1078918816267266/"
+                                            target="_blank">Meeting with dr Anna</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://www.facebook.com/100000829336534/videos/1038707983644004/"
+                                            target="_blank">Education is must(aiims)</a></li>
+                                    <li><a class="dropdown-item" href="https://swavlambancard.gov.in/"
+                                            target="_blank">Disabilty Certificate</a></li>
+                                    <li><a class="dropdown-item" href="./Assets/pdf/IAMD.pdf" target="_blank">IAMD Manav
+                                            Mandir</a></li>
+                                    <li><a class="dropdown-item" href="#" target="_blank">Supportive Devices <br> And
+                                            Equipment</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Kids Corner
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#achievement">Achievements</a></li>
+                                    <li><a class="dropdown-item" href="#">Skills</a></li>
+                                    <li><a class="dropdown-item" href="./Education.html">Education</a></li>
+                                    <!-- mental health have sub nav add later -->
+                                    <li><a class="dropdown-item" href="#">Mental Health</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Moms Corner
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./ImprovingQualityOfLife.html">Improving Quality
+                                            Of Life</a></li>
+                                    <li><a class="dropdown-item" href="./InformingYourSon.html">Informing Your Son</a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="./Acceptance.html">Acceptance</a></li>
+                                    <!-- mental health have sub nav add later -->
+                                    <li><a class="dropdown-item" href="./Depression.html">Depression</a></li>
+                                    <li><a class="dropdown-item" href="./Carrier.html">Carrier</a></li>
+                                    <li><a class="dropdown-item" href="./Comming.html">Sharing Experience</a></li>
+                                    <li><a class="dropdown-item" href="./Comming.html">Heath Tips</a></li>
+                                    <li><a class="dropdown-item" href="./HomeRemedies.html">Home Remedies</a></li>
+                                    <li><a class="dropdown-item" href="./TheUnplannedjourney.html">The Unplanned
+                                            journey</a></li>
+                                    <li><a class="dropdown-item" href="./HoldingHands.html">Holding Hands</a></li>
+                                    <li><a class="dropdown-item" href="./WheelChair.html">Wheel Chair</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#"><button class="btn">Contact
+                                        Us</button></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+   <section id="carrier-welcome">
+        <h1 class="main-headings">
+            Carriers
+        </h1>
+        <div class="row">
+            <div class="col-md-6">
+                <p>DMD is a genetic disease. It is caused by spontaneously in the child or inherited from their mother. Human body is made up with cells, cells include all instructions our body needs they develop, live and reproduce. They are made up of DNA.DNA are made up of smaller section called genes.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="./Assets/background/img-29.jpg" alt="" width = "100%">
+            </div>
+        </div>
+   </section>
+   <div class="carrier-bg container-fluid">   
+    </div>
+<section id = "carrier-content">
+    <div class="row">
+        <div class="col-md-6">
+            <p>If a man with DMD has children with a woman who is not a carrier, none of sons will have DMD but all their daughters will be carrier. Why has this happened?
+                No one is to blame, no one did anything.There is nothing a mother could do during her pregnancy to prevent the child from developing dmd. genes are complicated sometimes they go wrong.
+                For carriers, accepting that this was NOT something you chose to pass onto your child, that you had NO control over which genes were passed on, and connecting with other carriers who can relate to how you're feeling and reassure you that you are not alone.
+                Care for Carriers Though they are not effected, but few changes can be observed in their cardiac fuction, fatigue and muscle weakness.</p>
+        </div>
+        <div class="col-md-6">
+            <img src="./Assets/background/img-31.png" alt="" width="100%" class = "carrier-img">
+        </div>
+    </div>
+</section>
+    <section id="footer">
+        <footer>
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="./Assets/logo.jpeg" alt=""> <br>
+                    <p style="color: white; font-size: medium;">The most common muscular dystrophy in children is
+                        Duchenne muscular dystrophy. It's an illness that causes muscles to weaken over time, eventually
+                        affecting the entire body. <br> <br>
+                        <b>
+                            For Free Legal Advice
+                            Contact:
+                            Advocate Sumit Gupta
+                            +91 90450 33181 (call between 5PM - 9PM)
+                        </b>
+                    </p>
+                    <!-- <p></p> -->
+                </div>
+                <div class="col-sm-6">
+                    <a href="https://www.facebook.com/groups/dmdindia" class="footer-social"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="mailto:dmdindiamom@gmail.com?subject=Whatsapp group invite request"
+                        class="footer-social"><i class="fa-brands fa-square-whatsapp"></i></a>
+                    <a href="mailto:dmdindiamom@gmail.com?" class="footer-social"><i
+                            class="fa-solid fa-envelope"></i></a>
+                    <a href="https://twitter.com/dmdindiamom" class="footer-social"><i
+                            class="fa-brands fa-twitter"></i></a>
+                    <div>
+                        <p style="color: #FF0063;font-size: small;"> @copyrightdmdIndiamoms</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+    <!-- <marquee>"Think Positive Be Positive Live
+        Positive To Provide Best Care To Your Kid". Let's walk the journey
+        together, You are not alone... Contact us:dmdindiamom@gmail.com</marquee> -->
+</body>
+
+</html>
