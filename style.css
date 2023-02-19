@@ -133,6 +133,15 @@ section{
 
 /* for mobile */
 @media screen and (max-width:1000px) {
+    body{
+        font-size:15px;
+    }
+    section{
+        padding: 5% 9%;
+    }
+    img{
+        width: 100%;
+    }
     #welcome img{
         width: 100%;
     }
@@ -159,6 +168,10 @@ section{
     .section-headings{
         font-weight: bold;
         font-size: 2rem;
+    }
+    #care .card{
+        width: 100%;
+        margin-bottom: 15%;
     }
     .main-video iframe{
         width: 100%;
